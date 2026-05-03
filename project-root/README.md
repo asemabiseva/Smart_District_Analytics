@@ -53,3 +53,8 @@ Or in `.streamlit/secrets.toml`:
 MAPBOX_API_KEY = "your_token_here"
 ```
 Without a token the map will still work but show a plain base layer.
+
+## RESEARCH PAPER
+## Data-Driven Road Accident Probability Modeling and Fatality-Based Clustering in Almaty: A Machine Learning Approach to Public Safety Improvement
+### Abstract
+In the urban world, road traffic accidents have become a big social safety issue that causes massive losses to people, economies, and infrastructures annually. It is necessary to know the circumstances in which accidents happen and escalate in order to minimize their effects. This paper focuses on road traffic accidents in Almaty, Kazakhstan based on the past record of accidents experienced during the period between 2015 and 2025 to examine the risk factors, the level of accidents and the future trends of accidents. The research approximates the likelihood of the occurrence of accidents in different conditions and categorizes accidents according to their fatal and non-fatal results. The models of supervised machine learning are used to forecast the severity of accidents and determine the factors that have an impact on them, whereas clustering of accidents is done using the unsupervised methods. Moreover, time-series analysis is also used to model time-behavior and predict the future quantities of accidents using past data. The findings have practical implications on the high risk conditions, hazardous sites and severity profiles that can be used in decision making on road safety enhancement, emergency management plans, and urban infrastructure development in Almaty.
