@@ -42,17 +42,7 @@ streamlit run Home.py
 | 🏠 Housing | `krisha_final.csv` | Price map, box plots, listing table |
 | 📈 Forecast | `processed_table.csv` | SARIMA forecast, confidence intervals |
 
-## 🗺️ Maps
-Maps use **pydeck** (PyDeck) which is a Python wrapper around deck.gl.  
-For full Mapbox basemap tiles, set a Mapbox token:
-```bash
-export MAPBOX_API_KEY=pk.eyJ1IjoiYWlnYTIiLCJhIjoiY21ucnl4bzlyMDd0aTJzcXk1Nno4bjg4aCJ9.a-IzFh4dtA7zz8InRtwGSA
-```
-Or in `.streamlit/secrets.toml`:
-```toml
-MAPBOX_API_KEY = "your_token_here"
-```
-Without a token the map will still work but show a plain base layer.
+
 
 ## RESEARCH PAPER
 ## Data-Driven Road Accident Probability Modeling and Fatality-Based Clustering in Almaty: A Machine Learning Approach to Public Safety Improvement
