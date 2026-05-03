@@ -9,9 +9,10 @@ Choosing a place to live in Almaty is a complex decision influenced by safety, h
 * **Interactive District Comparison:** Compare districts and neighborhoods based on real-time metrics.
 * **Safety Index:** A data-driven score calculated from historical traffic accident statistics.
 * **Environmental Score:** Analysis of air quality and ecological indicators across different city sectors.
-* **Price Prediction:** A regression-based model to analyze housing affordability and predict market prices.
+* **Price Suitability Indicator:** A regression-based model to analyze housing affordability.
 * **Customizable Ranking:** A multi-criteria scoring system that allows users to weight priorities like price, safety, or ecology.
 * **Data Visualization:** Interactive maps, heatmaps, and charts powered by ArcGIS and Plotly.
+
 
 ## 🛠️ Technology Stack
 * **Frontend:** Streamlit
@@ -41,10 +42,23 @@ streamlit run Home.py
 | 🚗 Accidents | `processed_table.csv` | Heatmap, ML severity predictor (Random Forest) |
 | 🏠 Housing | `krisha_final.csv` | Price map, box plots, listing table |
 | 📈 Forecast | `processed_table.csv` | SARIMA forecast, confidence intervals |
+| 🗺️ Infrastructure | `hospitals_almaty.csv` | Identify service gaps |
+| 🗺️ District Score | `processed_table.csv`, 'Almaty_Education_Master.csv,' | Rank districts by your priorities  |
 
-
+## Models
+Accident Severity Prediction — Random Forest Classifier
+Fatality-Based Clustering — K-Means
+Accident Volume Forecasting — SARIMA
+Housing Price Estimation — Regression
 
 ## RESEARCH PAPER
 ## Data-Driven Road Accident Probability Modeling and Fatality-Based Clustering in Almaty: A Machine Learning Approach to Public Safety Improvement
 ### Abstract
 In the urban world, road traffic accidents have become a big social safety issue that causes massive losses to people, economies, and infrastructures annually. It is necessary to know the circumstances in which accidents happen and escalate in order to minimize their effects. This paper focuses on road traffic accidents in Almaty, Kazakhstan based on the past record of accidents experienced during the period between 2015 and 2025 to examine the risk factors, the level of accidents and the future trends of accidents. The research approximates the likelihood of the occurrence of accidents in different conditions and categorizes accidents according to their fatal and non-fatal results. The models of supervised machine learning are used to forecast the severity of accidents and determine the factors that have an impact on them, whereas clustering of accidents is done using the unsupervised methods. Moreover, time-series analysis is also used to model time-behavior and predict the future quantities of accidents using past data. The findings have practical implications on the high risk conditions, hazardous sites and severity profiles that can be used in decision making on road safety enhancement, emergency management plans, and urban infrastructure development in Almaty.
+
+## Team Members (with Email IDs)
+Alina Kenzhegariyeva 230103274
+Assem Abisheva 230103284
+Leilima Akat 230103223
+Aigerim Turarbek 230103297
+
